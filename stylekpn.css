@@ -1,0 +1,63 @@
+
+
+.kpntext {
+	width: 500px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.kpntext2 {
+
+}
+
+
+.kpnimage {
+	height: 450px;
+}
+
+@media only screen and (max-width: 770px) {
+	.kpnimage {
+		height: 400px;
+		margin-top: 50px;
+	}
+}
+
+
+
+.kpncontentgroot {
+	display: block;
+}
+
+.kpncontentklein {
+	display: none;
+}
+
+@media only screen and (max-width: 770px) {
+	.kpncontentgroot {
+		display: none;
+	}
+
+	.kpncontentklein {
+		display: block;
+	}
+}
+
+
+.ootlaptop {
+	width: 100%;
+}
+
+.bedrijflaptop {
+	width: 100%;
+}
+
+
+.backbutton {
+	position: absolute;
+	top: 7vh;
+	left: 5vw;
+}
+
+
+
+
