@@ -387,8 +387,7 @@ h2 {
 }
 
 .solarimage {
-	height: 30vh;
-	margin-right: 14vh;
+	height: 25vh;
 	position: absolute;
 	margin-top: 20vh;
 	z-index: 3;
