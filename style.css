@@ -61,6 +61,8 @@ h2 {
 	padding-left: 50px;
 	padding-top: 40px;
 	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
+	position: relative;
+	z-index: 2;
 }
 
 .two:hover {
@@ -119,6 +121,8 @@ h2 {
 	padding-left: 50px;
 	padding-top: 40px;
 	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
+	position: relative;
+	z-index: 3;
 }
 
 .three:hover {
