@@ -35,6 +35,8 @@ h2 {
 	background: #FDFFC3;
 	display: flex;
 	align-items: center;
+	z-index: 2;
+	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
 }
 
 .h1naam {
@@ -50,7 +52,6 @@ h2 {
 	margin-left: 200px;
 	width: 100vw;
 }
-
 
 
 .two {
@@ -87,6 +88,7 @@ h2 {
 	height: 50vh;
 	margin-left: 130px;
 	margin-top: 10vh;
+	z-index: 400;
 }
 
 @media only screen and (max-width: 600px) {
@@ -239,6 +241,7 @@ h2 {
 	padding-left: 50px;
 	padding-top: 40px;
 	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
+	
 }
 
 .five:hover {
@@ -259,14 +262,15 @@ h2 {
 	font-weight: 400;
 	width: 65%;
 	margin-top: 5vh;
+	
 }
 
 .bedrijfimage {
-	height: 35vh;
-	margin-left: -170px;
-	position: absolute;
+	height: 30vh;
+	margin-left: -24vh;
 	margin-top: 22vh;
-	z-index: 3;
+	z-index: 1;
+	
 }
 
 
@@ -297,6 +301,8 @@ h2 {
 	padding-left: 50px;
 	padding-top: 40px;
 	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
+	z-index: 400;
+	position: relative;
 }
 
 .six:hover {
@@ -323,6 +329,7 @@ h2 {
 	margin-left: 50px;
 	margin-top: 25vh;
 	position: absolute;
+	z-index: 400;
 }
 
 @media only screen and (max-width: 600px) {
@@ -361,10 +368,11 @@ h2 {
 	width: 375px;
 	background: #FFEEBB;
 	cursor: pointer;
-	padding-left: 50px;
 	padding-top: 40px;
-	z-index: 33;
 	box-shadow: -1px 0px 10px 1px rgba(87, 87, 87, 0.1);
+	z-index: 1;
+	position: relative;
+
 }
 
 .seven:hover {
@@ -384,13 +392,18 @@ h2 {
 	font-weight: 400;
 	width: 65%;
 	margin-top: 5vh;
+	padding-left: 50px;
+	
 }
 
-.solarimage {
-	height: 25vh;
-	position: absolute;
+.energyimage {
+	height: 29vh;
 	margin-top: 20vh;
-	z-index: 3;
+	position: absolute;
+	margin-left: -120px;
+	z-index: 0;
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -434,7 +447,7 @@ h2 {
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 550px;}
+  to{width: 580px;}
 }
 
 @media only screen and (max-width: 800px) { 
@@ -458,7 +471,7 @@ h2 {
   	width: 0;
   }
   to {
-  	width: 360px;
+  	width: 380px;
   }
 }
 
